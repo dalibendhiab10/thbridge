@@ -37,10 +37,5 @@ Similar to the frontend, the backend also uses an `.env` file to store environme
 
 The backend also uses a `.env` file to configure environment variables, such as the MongoDB URI and server port. Ensure you configure the `.env` file with the correct settings for your environment.
 
-## Deployment
 
-For deployment, the project uses **Docker** to containerize both the frontend and backend applications, making it easy to deploy on any server. Docker ensures that the application can run consistently across different environments by bundling all dependencies into containers.
-
-1. **Docker Setup**: The project includes a `docker-compose.yml` file for running both the frontend and backend in Docker containers.
-2. **PM2**: For managing the backend process, **PM2** is used to ensure that the backend stays running in production.
 
